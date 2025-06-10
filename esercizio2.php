@@ -10,7 +10,7 @@ $anoOggi = (int) trim(fgets(STDIN));
 $anniTotale = $anoOggi - $anoNascita;
 
 if ($anoNascita > $anoOggi) {
-    echo 'I dati inseriti non sono corretti';
+    echo 'data sbagliata';
 } else if ($anniTotale >= 4) {
     echo 'Puoi accedere alla piattaforma perchè hai: ' . $anniTotale . ' anni.';
 } else {
