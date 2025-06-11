@@ -15,10 +15,6 @@ function checkDispare($x) {
     return $varCheck;
 }
 
-
-
-
-
 echo "Inserisci un numero: ";
 $number = trim(fgets(STDIN));
 echo "Numeri dispare: ";
