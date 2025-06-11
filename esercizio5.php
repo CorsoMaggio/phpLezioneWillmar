@@ -6,13 +6,15 @@ for ($x = 0; $x <= 30; $x++) {
     $modulo5 = $x % 5;
     if($x % 3 == 0){
           if($x % 5 == 0){
-            echo "Francesco - ";
+            echo "Francesco, ";
          }
          else{
-            echo "PHP - ";
+            echo "PHP, ";
          }
     }elseif($x % 5 == 0){
-            echo "JAVASCRIPT -";
+            echo "JAVASCRIPT ,";
+         }else{
+            echo $x.", ";
          }
 
 }
