@@ -1,25 +1,4 @@
 <?php
-function checkPair($x) {
-    $varCheck = false;
-    if($x % 2 == 0){
-        echo $x." - ";
-    }
-    return $varCheck;
-}
-
-function checkDispare($x) {
-    $varCheck = false;
-    if($x % 2 <> 0){
-        echo $x." - ";
-    }
-    return $varCheck;
-}
-
-
-
-
-
-
 function contaVocali(string $stringa): int {
     $vocali = ["a", "e", "i", "o", "u"];
     $count = 0;
